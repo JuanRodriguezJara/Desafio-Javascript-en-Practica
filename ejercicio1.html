@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <div>
+        <div style="width: 40%;margin: 0 auto">
+            <h2> Escríbenos !!!</h2>
+            <div class="resultado" style="color:green;font-style: italic;font-weight: 600"></div>
+            <form id="formulario" name="form">
+                <div>
+
+                    <div style="display: flex;flex-direction: column;">
+                        <label> Nombre completo </label>
+                        <input id="nombre" type="text" class="textNombre">
+                        <p class="errorNombre" style="color:red;font-style: italic;"></p>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <label> Asunto </label>
+                        <input id="asunto" type="text" class="textAsunto">
+                        <p class="errorAsunto" style="color:red;font-style: italic;"></p>
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction: column;">
+                    <label>Mensaje</label>
+                    <textarea id="mensaje" class="textMensaje"></textarea>
+                    <p class="errorMensaje" style="color:red;font-style: italic;"></p>
+                </div>
+                <div>
+                    <button id="botton" type="submit">Envíar mensaje</button>
+                    <p class="resultado"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/script1.js"></script>
+    
+</body>
+
+</html>
